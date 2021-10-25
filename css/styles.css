@@ -1,0 +1,107 @@
+body{
+   padding-top:60px;
+}
+
+/*
+img {
+    margin-top: 10px;
+	width: 1170px;
+	height: 500px;
+}
+*/
+
+form {
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, Times, serif;
+}
+
+.navbar-brand img {
+    height: 128%;
+    margin-top: 0px;
+    width: 100px;
+}
+
+.form-signin {
+    max-width: 450px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.box {
+    box-shadow: 0 2px 2px -2px #cccccc;
+    background: #fbfbfb;
+    border: 1px solid #cdcdcd;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    font: 400 12px 'Open Sans',HelveticaNeue,Helvetica,Arial;
+    color: #707070;
+}
+
+.box .box-header {
+    background: #eaeaea; 
+}
+
+.box .box-header .nav-tabs {
+    border-bottom: none;
+    text-shadow: 0 1px white;
+    color: #636363;
+    font-weight: 600;
+}
+
+.box .box-header .nav {
+    margin-bottom: 0;
+}
+
+.nav {
+    margin-left: 0;
+    list-style: none;
+}
+
+.padded {
+    padding: 15px;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+.tab-content {
+    overflow: auto;
+}
+
+label {
+    font-size: 12px;
+    color: #5F5F5F;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.form-horizontal .form-actions {
+    padding-left: 180px;
+}
+
+.form-actions {
+    margin-bottom: 0;
+    padding: 19px 20px 20px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-top: 1px solid #e5e5e5;
+}
+
+.tab-content > .tab-pane {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}

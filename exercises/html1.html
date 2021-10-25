@@ -1,0 +1,176 @@
+<html>
+
+<head>
+  <title>LAIKIPIA HOME</title>
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <style type="text/css">
+      p{font-family: sans-serif; color: black;}
+      h2{background-color: yellow;}
+      
+  </style>
+
+</head>
+    
+<body>
+   
+    <h1>LAIKIPIA UNIVERSITY</h1>
+    <P style="font-family:san-serif; color:yellow; backgroung-color:black;">The university has a unique history that has evolved through different educational phases.</P>
+    
+    <h2>OUR SCHOOLS</h2>
+      
+      <ul>
+        <li><a href="business.html">BUSINESS</a></li>
+        <li><a href="science.html">SCIENCE</a></li>
+        <li><a href="humanities.html">HUMANITIES</a></li>
+        <li><a href="education.html">EDUCATION</a></li>
+      </ul>
+    
+    <ol>
+        <li><a href="business.html">BUSINESS</a></li>
+        <li><a href="science.html">SCIENCE</a></li>
+        <li><a href="humanities.html">HUMANITIES</a></li>
+        <li><a href="education.html">EDUCATION</a></li>
+    </ol>
+    <h3></h3>
+     
+    <a href="business.html"><img src="images/laikipia.png" alt="laikipia" width="200" height="100"></a>
+    <a href="education.html"><img src="images/Starry_Night.jpg" alt="laikipia" width="100" height="100"></a>
+    
+    <ul>
+     <li>BUSINESS:
+     <ol>
+        <li>commerce</li>
+        <li>economics</li>
+    </ol>
+        </li>
+        <li>SSAT:
+    <ol>
+      <li>computing</li>
+      <li>maths</li>
+      <li>physics</li>
+    </ol>
+    </li>
+    </ul>
+    
+    <dl>
+        <dt>web</dt>
+        <dd>web programming class is offered by madam Ireri <br/> time Tuesday from 11am-2pm.</dd>
+        <dt>Marketing</dt>
+        <dd>offered dr. mwaura</dd>
+        <dt>Networking</dt>
+        <dd>offered by mr. Oguta</dd>
+    </dl>
+    
+    <p>
+      my name is tale <br/> i am a student at laikipia university.<br/> i am 22 years old.
+    </p>
+    
+    <form action="actionpage.php" method="post">
+      FIRST NAME: <input type="text" name="FirstName" ><br/>
+      LAST NAME: <input type="text" name="lastName" ><br/>
+      REGISTRATION NUMBER: <input type="text" name="Reg_No" ><br/>
+      GENDER: <input type="radio" name="gender" value="male" checked >male<br/>
+              <input type="radio" name="gender" value="female" >female<br/>
+      COURSE: <select name="course"><br/>
+               <option value="BICT">BSc ICT</option>
+               <option value="CS">BSc SC</option>
+               <option value="phyc">BSc Physics</option>
+              </select><br/>
+      Transport: <input type="checkbox" name="transport" value="bicycle">Bicycle<br/>
+                 <input type="checkbox" name="transport" value="walk">Walk<br/>
+                 <input type="checkbox" name="transport" value="matatu">Matatu<br/>
+      PASSWORD:  <input type="password" name="pwd1"><br/>
+      Confirm password: <input type="password" name="pwd2"><br/>
+                 <input type="submit" value="register">
+    <input type="reset" value="reset">
+    </form>
+    
+    <table border="1">
+       <tr>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Address</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>12</td>
+        <td>1234</td>
+      </tr>
+      <tr>
+        <td>mary</td>
+        <td>13</td>
+        <td>4567</td>
+      </tr>
+      
+    </table>
+    <br/>
+    <table border="1">
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Ochieng</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Kamau</td>
+        <td>13</td>
+      </tr>
+    </table>
+    <br/>
+    <table border="1">
+      <tr>
+        <th rowspan="2">Name</th>
+        <td>John</td>
+      </tr>
+      <tr>
+        <td>Ochieng</td>  
+      </tr>
+    </table>
+    
+    <fieldset>
+      <legend>LOGIN</legend>
+      Name: <input type="text" name="Name"><br/>
+      Password: <input type="password" name="pass"><br/>
+      <input type="submit" value="submit">
+    </fieldset>
+    
+    <div class="standout">
+      <h2>department of computing</h2>
+      <p>the department has 2000 student</p>
+    </div><br/>
+    
+    <script>
+       var Name = "Mary";
+        document.write(Name+"<br/>");
+        document.write("my name is:"+Name+"<br/>");
+        
+        var first_name="Mary";
+        var last_name="Juma";
+        var full_name=first_name+last_name;
+        document.write("my name is:"+full_name+"<br/>");
+        document.write(first_name+" "+last_name+"<br/>");
+    </script>
+    
+    <a href="education.html">My page</a><br/>
+    <a href="education.html" onMouseover="window.alert('Hello');">My page</a><br/>
+    <form>
+      <input type="button" value="press" onclick="window.alert('Hello);">
+    </form>
+    
+    <form name="alert">
+        Name:<input type="text" name="yourname">
+        <input type="button" value="Go" onclick="window.alert('Hello'+document.alert.yourname.value);">
+    
+    </form>
+    
+    <script>
+     x=prompt("my name is"," ");
+        document.write("Hello"+x+"! how are you today?");
+    </script>
+</body>
+
+</html>
